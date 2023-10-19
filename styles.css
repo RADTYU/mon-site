@@ -1,0 +1,34 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+header, main, footer {
+    padding: 20px;
+    max-width: 1440px; /* Ajustez cette valeur en fonction de la largeur de votre design */
+    margin: 0 auto;
+}
+
+/* Styles pour la section hero */
+#hero {
+    background-color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour les sections avec un fond blanc */
+#tests, #progress, #courses {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Exemple de style pour les titres */
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
